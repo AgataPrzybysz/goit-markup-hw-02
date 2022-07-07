@@ -158,6 +158,7 @@ body {
 /*----FOOTER----*/
 
 .address-list a {
+  font-style: normal;
   text-decoration: none;
   font-weight: 400;
   font-size: 14px;
