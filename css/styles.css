@@ -34,6 +34,10 @@ body {
 
 /*------HEADER-------*/
 
+.navigation-list {
+  list-style: none;
+}
+
 .header a {
   text-decoration: none;
   font-style: normal;
@@ -67,6 +71,10 @@ body {
 /*-------END HEADER-----*/
 
 /*------HERO------*/
+
+.about-list {
+  list-style: none;
+}
 
 .hero {
   text-align: center;
@@ -119,6 +127,10 @@ body {
 
 /*-----WHAT DO WE DO-----*/
 
+.doing-list {
+  list-style: none;
+}
+
 .doing-title {
   font-weight: 700;
   font-size: 36px;
@@ -156,6 +168,10 @@ body {
 /*----END OUR TEAM----*/
 
 /*----FOOTER----*/
+
+.address-list {
+  list-style: none;
+}
 
 .address-list a {
   font-style: normal;
@@ -226,6 +242,9 @@ body {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.portfolio-nav-list {
+  list-style: none;
 }
 
 /*----END PORTFOLIO----*/
