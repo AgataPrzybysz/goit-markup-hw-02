@@ -6,7 +6,6 @@
 
 body {
   font-family: var(--main-font);
-  font-style: normal;
 }
 
 /*------COMPONENTS------*/
@@ -27,7 +26,6 @@ body {
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: #2196f3;
-  text-decoration: none;
 }
 
 /*-----END COMPONENTS-----*/
@@ -40,7 +38,6 @@ body {
 
 .header a {
   text-decoration: none;
-  font-style: normal;
 }
 
 .navigation a {
@@ -116,7 +113,6 @@ body {
 }
 
 .description {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -161,13 +157,16 @@ body {
 }
 
 .signature-occupation {
-  font-weight: 400;
   color: #757575;
 }
 
 /*----END OUR TEAM----*/
 
 /*----FOOTER----*/
+
+.footer a {
+  text-decoration: none;
+}
 
 .address-list {
   list-style: none;
@@ -176,7 +175,6 @@ body {
 .address-list a {
   font-style: normal;
   text-decoration: none;
-  font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -195,6 +193,13 @@ body {
   text-decoration-line: underline;
 }
 
+.address-footer-link:hover,
+.address-footer-link:focus,
+.contact-footer-link:hover,
+.contact-footer-link:focus: {
+  color: var(--main-color);
+}
+
 /*----END FOOTER----*/
 
 /*----PORTFOLIO----*/
@@ -207,25 +212,16 @@ body {
   letter-spacing: 0.03em;
   border-radius: 4px;
   cursor: pointer;
-}
-
-.portfolio-btn-first {
-  color: #ffffff;
-  background: #2196f3;
+  color: #212121;
+  background: #f5f4fa;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio-btn {
-  color: #212121;
-  background: #f5f4fa;
-}
-
-.portfolio-btn-first:hover,
-.portfolio-btn-first:focus,
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  color: var(--main-color);
+  background-color: var(--main-color);
+  color: #ffffff;
 }
 
 .portfolio-signature-name {
@@ -237,7 +233,6 @@ body {
 }
 
 .portfolio-occupation {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
