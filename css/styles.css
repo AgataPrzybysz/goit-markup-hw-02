@@ -196,7 +196,7 @@ body {
 .address-footer-link:hover,
 .address-footer-link:focus,
 .contact-footer-link:hover,
-.contact-footer-link:focus: {
+.contact-footer-link:focus {
   color: var(--main-color);
 }
 
